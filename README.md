@@ -1,10 +1,11 @@
 # Agressive_Cows-Problem
 Python code :-Placing number of cows in given number of stalls within minimum largest possible distance between them.
 <br>
-There is a new barn with N stalls and C cows. The stalls are located on a straight line at positions x1,xN (0 <= xi <= 1,000,000,000).
-We want to assign the cows to the stalls, such that the minimum distance between any two of them is as 
-large as possible. What is the largest minimum distance?
-
+PROBLEM:-There is a new barn with N stalls and C cows. The stalls are located on a straight line at positions x1,xN (0 <= xi <= 1,000,000,000).
+         We want to assign the cows to the stalls, such that the minimum distance between any two of them is as 
+         large as possible. What is the largest minimum distance?
+ <BR>
+ALGORITHM TO SOLVE TYHE ABOVE PROBLEM:-
  1.	Sort the Stalls: [1,2,,4,8,9]
  2.	Binary Search Range: Start with low = 0 and high = 8 (distance between the first and last stall).
  3.	First Mid-point: 4 (check if you can place cows with at least 4 units apart).
